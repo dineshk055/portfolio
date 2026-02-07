@@ -22,8 +22,8 @@ const Navbar = ({ scrollToSection, homeRef, aboutRef,educationRef,skillRef, cont
         <div className='flex items-center gap-2 text-xl md:text-2xl'>
             <h1 className='text-3xl md:text-5xl text-blue-700'><FaReact /></h1>
             <h1 className='font-bold text-black/70'>
-                <span className='text-violet-950'>MERN</span> 
-                <span className='hidden md:inline'> Dev</span>
+                <span className='text-violet-950'>MERN Dev</span> 
+                
             </h1>
         </div>
 
