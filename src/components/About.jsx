@@ -75,7 +75,7 @@ const About = forwardRef ((props,ref) => {
             {/* Download Button */}
             <div className="flex justify-center lg:justify-start">
               <a
-                href="/Dinesh_K_Resume.pdf"
+                href="/Dinesh_K_Resume .pdf"
                 download
                 className="group relative inline-flex items-center gap-3 bg-linear-to-r from-blue-900 to-purple-900 text-white px-8 py-4 rounded-full font-semibold text-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-xl"
               >
