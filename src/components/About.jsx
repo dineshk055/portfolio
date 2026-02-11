@@ -1,5 +1,8 @@
 import React, { forwardRef } from 'react';
 import { FaDownload } from 'react-icons/fa';
+import { IoPinSharp } from 'react-icons/io5';
+import { MdOutlineRocketLaunch } from 'react-icons/md';
+import { RxRocket } from 'react-icons/rx';
 
 const About = forwardRef ((props,ref) => {
   return (
@@ -23,7 +26,7 @@ const About = forwardRef ((props,ref) => {
           <div className="lg:w-2/5">
             <div className="bg-white rounded-2xl shadow-lg p-8 border-l-8 border-blue-600">
               <div className="text-center mb-8">
-                <div className="text-4xl mb-4">🚀</div>
+                <div className="text-4xl mb-4 text-red-600"><MdOutlineRocketLaunch /></div>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">
                   MERN Stack Expertise
                 </h2>
@@ -34,7 +37,7 @@ const About = forwardRef ((props,ref) => {
               
               <div className="flex justify-center">
                 <div className="inline-flex items-center gap-2 bg-blue-50 text-blue-700 px-6 py-3 rounded-full font-semibold">
-                  <span className="text-lg">📍</span>
+                  <span className="text-lg text-red-600"><IoPinSharp /></span>
                   Chennai, Tamil Nadu
                 </div>
               </div>

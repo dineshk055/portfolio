@@ -35,7 +35,7 @@ const Projects = forwardRef ((props,ref) => {
               <span className='bg-purple-300/40 text-blue-800 px-2 md:px-3 py-1 rounded-full font-medium md:font-semibold text-sm'>MongoDB</span>
             </div>
             <div className='text-center bg-blue-700 w-full md:w-50 mx-auto mt-6 md:m-6 text-white font-bold p-3 md:p-4 rounded-xl md:rounded-full duration-500 hover:bg-blue-400 '>
-              <a href="#" className='text-sm md:text-base'>Live Demo</a>
+              <a href="https://festmate.netlify.app/" className='text-sm md:text-base'>Live Demo</a>
             </div>
 
           </div>
